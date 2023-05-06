@@ -26,7 +26,7 @@
             count = count - 2;
             tempremainder1 = Math.Round(arg1 % Math.Pow(10, tempcount));
             remainder1 = Math.Floor(arg1 / Math.Pow(10, count));
-            if (tempremainder1 == remainder1 && arg1 > 9)
+            if (tempremainder1 == remainder1 && arg1 > 10)
                 continue;
             else
                 return result + "a palindrome";
