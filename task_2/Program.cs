@@ -4,7 +4,7 @@ double arg4, double arg5, double arg6)
 {
     double result = 0;
     result = Math.Sqrt((Math.Pow(arg4 - arg1, 2)) + (Math.Pow(arg5 - arg2, 2)) + (Math.Pow(arg6 - arg3, 2)));
-    return $"The distance between two peaks is {Math.Round(result, 2)}";
+    return $"The distance between two points is {Math.Round(result, 2)}";
 }
 
 
