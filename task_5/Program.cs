@@ -1,6 +1,6 @@
 ﻿string IfPalindrome(double arg1)
 {
-    string result = "This number is ";
+    string result = "This number ";
     double temp = arg1;
     double remainder = 0;
     double remainder1 = 0;
@@ -29,12 +29,12 @@
             if (tempremainder1 == remainder1 && arg1 > 10)
                 continue;
             else
-                return result + "a palindrome";
+                return result + $"({temp}) is a palindrome";
         }
         else
-            return result + "not a palindrome";
+            return result + $"({temp}) is not a palindrome";
     }
-    return result + "not a palindrome";
+    return result + $"({temp}) is not a palindrome";
 }
 
 
